@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="file:///C:/Users/usama/OneDrive/Desktop/Kareem/signin/fontawesome-free-5.12.1-web/fontawesome-free-5.12.1-web/css/all.css"> -->
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./css/login.css">
+
+
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="container-fluid p-0" style="overflow: hidden;">
+        <div class="row">
+            <div class="col-7 p-0 left-image">
+                <img src="./img/Login/Capture.PNG" class="img-fluid">
+            </div>
+            <div class="right-content my-auto mx-auto">
+                <img src="./img/Login/bg.png" alt="" class="bg-img">
+                <div class="row mx-auto">
+                    <div class="col-md-12 my-auto p-0">
+                        <div class="main-content">
+                            <h2>Sign In</h2>
+                            <h6 class="mb-5">Sign in to manage your account.</h6>
+                        </div>
+                        <form action="/action_page.php" method="post" autocomplete="off" novalidate>
+                            <div class="container p-0" style="margin-top: -10px;">
+                                <label class="email"><b>Email address</b></label>
+                                <input type="text" class="txt" id="email" placeholder="Enter your email address"
+                                    required>
+                                <div class="d-flex warning-msg error" id="invalid_email">
+                                    <img src="./img/Login/warning.png" class="img-fluid error" alt="">
+                                    <p class="error">Please enter a valid email address.</p>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <label class="pasword"><b>Password</b></label>
+                                    <a class="f-pasword" href="http://">Forgot password?</a>
+                                </div>
+                                <div>
+                                    <input type="password" class="pswd" id="password" placeholder="Enter your password"
+                                        required style="position: relative;">
+                                    <img src="./img/Login/lock.png" class="img-fluid lock-icon abc"
+                                        style="cursor: pointer;">
+                                    <img src="./img/Login/unlock.png" class="img-fluid unlock-icon abc"
+                                        style="cursor: pointer;">
+                                    <img src="./img/Login/lock2.png" class="img-fluid lock2-icon abc"
+                                        style="cursor: pointer;">
+                                </div>
+                                <div class="d-flex warning-msg2">
+                                    <img src="./img/Login/warning.png" class="img-fluid error2" alt="">
+                                    <p class="error2">Password must contains at least 8 characters,
+                                        including uppercase, lowercase, numbers,
+                                        and symbols.</p>
+                                </div>
+                                <button type="button" id="submit">SIGN IN</button>
+                                <h6 class="no-account-text">Don't have an account yet?</h6>
+                                <a href="http://" class="signup">Sign Up Now</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--Date Picker-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <!--Date Picker End-->
+
+    <script src="./js/customJS.js"></script>
+
+</body>
+
+</html>
